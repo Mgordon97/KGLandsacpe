@@ -7,7 +7,7 @@ class Header extends Component {
      <div className="App">
         <header>
             <div className="logo">
-            <Link to="/">Landscape</Link>
+            <Link to={process.env.PUBLIC_URL + "/"}>Landscape</Link>
             </div>
 
             <nav>
