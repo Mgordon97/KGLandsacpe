@@ -8,6 +8,7 @@ import {
 import Header from './components/headerComponent/header'
 import Footer from './components/footerComponent/footer'
 import Homepage from './components/pages/homepage'
+import Home from './components/pages/homepage2'
 import Design from './components/pages/design'
 import Contact from './components/pages/contact'
 import Collection from './components/pages/collection'
@@ -25,7 +26,7 @@ class App extends Component {
      <Header />
        
        <Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage} />
-       <Route exact path={process.env.PUBLIC_URL + '/Homepage'} component={Homepage} />
+       <Route exact path={process.env.PUBLIC_URL + '/Home'} component={Home} />
        <Route exact path={process.env.PUBLIC_URL + '/Design'} component={Design} />
        <Route exact path={process.env.PUBLIC_URL + '/Spec'} component={Spec}/>
        <Route exact path={process.env.PUBLIC_URL +'/Buy'} component={Buy} />
