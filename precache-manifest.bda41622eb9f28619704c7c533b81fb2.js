@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "09aab9b9ca5606fa072b",
+    "revision": "c66176ad16cd08ab630a",
     "url": "/KGLandscape/static/css/main.85ba45ed.chunk.css"
   },
   {
-    "revision": "09aab9b9ca5606fa072b",
-    "url": "/KGLandscape/static/js/main.a46eacf5.chunk.js"
+    "revision": "c66176ad16cd08ab630a",
+    "url": "/KGLandscape/static/js/main.b6d4748f.chunk.js"
   },
   {
     "revision": "55569a4dff529260fad1",
     "url": "/KGLandscape/static/js/runtime~main.0aeb4678.js"
   },
   {
-    "revision": "80c697a6acc2ba62b4e8",
-    "url": "/KGLandscape/static/js/2.273ae496.chunk.js"
+    "revision": "9213be19ef95f36f1dd5",
+    "url": "/KGLandscape/static/js/2.7cf4a1d2.chunk.js"
   },
   {
     "revision": "11fbd1cedcdad6fbeb3941ded5338aa4",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/KGLandscape/static/media/Silver Grey COLUMNS (P).b327726f.jpg"
   },
   {
-    "revision": "532e0c4e8671a809bb566d9f1c5b6efe",
+    "revision": "c9dbb73be57e1c54932f5512b27bc4aa",
     "url": "/KGLandscape/index.html"
   }
 ];
