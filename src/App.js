@@ -24,12 +24,12 @@ class App extends Component {
      
      <Header />
        
-       <Route exact path='/' component={Homepage} />
-       <Route exact path='/Design' component={Design} />
-       <Route exact path='/Spec' component={Spec}/>
-       <Route exact path='/Buy' component={Buy} />
-       <Route exact path='/Collection' component={Collection} />
-       <Route exact path='/Contact' component={Contact} />
+       <Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage} />
+       <Route exact path={process.env.PUBLIC_URL + '/Design'} component={Design} />
+       <Route exact path={process.env.PUBLIC_URL + '/Spec'} component={Spec}/>
+       <Route exact path={process.env.PUBLIC_URL +'/Buy'} component={Buy} />
+       <Route exact path={process.env.PUBLIC_URL + '/Collection'} component={Collection} />
+       <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Contact} />
      
      <Footer />
 

@@ -20,7 +20,7 @@ class Homepage extends Component {
             worth individuals and hospitality establishments.
         </p>
 
-        <div className="start"><Link to="/Design">Click here to get started...</Link></div>
+        <div className="start"><Link to={process.env.PUBLIC_URL + "/Design"}>Click here to get started...</Link></div>
       </div>
        
 

@@ -31,7 +31,7 @@ class Design extends Component {
     }))};
 
   sweetalertFunc() {
-    Swal.fire("Design a planter!", "Personalise you product with the dropdown menus below.", "info");
+    Swal.fire("Design a planter", "Personalise you product with the dropdown menus below.", "info");
   }
 
   imgSelect() {

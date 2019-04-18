@@ -14,23 +14,23 @@ class Header extends Component {
                 <ul>
 
                     <li className ="first">
-                        <Link to="/Design">Design A Plant</Link>
+                        <Link to={process.env.PUBLIC_URL + "/Design"}>Design A Plant</Link>
                     </li>
 
                     <li className ="mid">
-                        <Link to="/Collection">Collection</Link>
+                        <Link to={process.env.PUBLIC_URL + "/Collection"}>Collection</Link>
                     </li>
 
                     <li className ="mid">
-                        <Link to="/Spec">Specifications</Link> 
+                        <Link to={process.env.PUBLIC_URL + "/Spec"}>Specifications</Link> 
                     </li>
 
                     <li className ="mid">
-                        <Link to="/Buy">How to purchase</Link> 
+                        <Link to={process.env.PUBLIC_URL + "/Buy"}>How to purchase</Link> 
                     </li>
 
                     <li className="last">
-                    <Link to="/Contact">Contact</Link>
+                    <Link to={process.env.PUBLIC_URL + "/Contact"}>Contact</Link>
                     </li>
                 </ul>
             </nav>
