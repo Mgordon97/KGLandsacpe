@@ -7,7 +7,7 @@ class Header extends Component {
      <div className="App">
         <header>
             <div className="logo">
-            <Link to={process.env.PUBLIC_URL + "/Homepage"}>Landscape</Link>
+            <Link to={process.env.PUBLIC_URL/KGLandscape + "/"}>Landscape</Link>
             </div>
 
             <nav>
